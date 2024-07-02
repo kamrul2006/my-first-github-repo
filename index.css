@@ -1,5 +1,11 @@
-div{
+#a{
     color: tomato;
     padding: 10px;
     background-color: aquamarine;
+    margin-bottom: 10px;
+}
+#b{
+    color: rgb(255, 0, 0);
+    padding: 10px;
+    background-color: rgb(236, 255, 127);
 }
