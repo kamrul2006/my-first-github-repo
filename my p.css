@@ -1,12 +1,14 @@
-*{ margin:20px 20px 20px 20px;}
+*{ margin:0; padding: 0;}
+
 .b{
     background-color: aqua;
     *{padding: 5px 5px 5px 5px;}
     text-align: justify;
 }
+
 #a{
     color: brown; 
-    text-align: center; 
+    text-align:justify; 
     background-color: bisque; 
     box-shadow: gray 10px 10px 5px; 
     border-left: 20px solid blueviolet;
@@ -15,9 +17,10 @@
     border-top:2px solid black;
     border-radius: 10px 0px 10px 0px ;
 }
+
 .c{
     color: brown; 
-    text-align: center; 
+    text-align:justify; 
     background-color: rgb(255, 176, 79); 
     border-left: 20px solid rgb(0, 66, 248);
     border-right: 20px solid rgb(255, 0, 0);
@@ -25,6 +28,7 @@
     border-top:2px solid black;
     border-radius: 10px 0px 10px 0px ;  
 }
+
 #d{
     color: brown; 
     text-align: justify; 
@@ -35,4 +39,12 @@
     border-top:2px solid black; 
     border-radius: 10px 0px 10px 0px ; 
 }
-button{border: 4PX solid rgb(255, 60, 0); background-color: rgba(238, 255, 0, 0.212);}
+button{
+        border: 2PX solid rgb(255, 60, 0);
+        border-radius: 5px;
+        background-color: rgb(242, 252, 98); 
+        display:inline-flex; 
+        float: left; 
+        margin: 2px;
+        padding: 2px;
+    }
