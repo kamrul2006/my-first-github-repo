@@ -1,13 +1,20 @@
 *{margin: 0;}
 
-
+img{
+ 
+}
 body {font-family: Arial, Helvetica, sans-serif;
-  background-image: url(https://st3.depositphotos.com/11816002/17012/i/450/depositphotos_170125340-stock-illustration-sci-fi-landscape-digital-painting.jpg)
+  background-image: linear-gradient(to bottom right, rgb(4, 0, 43), blue, rgb(153, 156, 182))
 }
 
 * {box-sizing: border-box}
-#a1{ width: 100% ;
-    display: inline-flex;}
+#a1{ margin-left: 33%;
+     margin-right: 33%;
+     flex-direction: row;
+     display: inline-flex;
+  }
+
+  #a2{color: rgb(255, 255, 255); border: 2px solid rgb(249, 247, 144); border-width: 100; padding: 10px; ; font-size: 12px; text-align: center; background-image: linear-gradient(rgb(50, 9, 139), rgb(196, 25, 67)); border-radius: 30px;}
 
 /* Full-width input fields */
 input[type=text], input[type=password] {
@@ -75,4 +82,8 @@ button:hover {
   .cancelbtn, .signupbtn {
      width: 100%;
   }
+}
+footer{
+  background-color: #04AA6D;
+  text-align: center;
 }
